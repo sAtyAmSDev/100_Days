@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --bg:#ffffff
+  --primary: #df6951;
+  --secondary: #181e4b;
+}
+
+body {
+  background-color: var(--bg);
+  overflow-x: hidden;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+ 
+  font-size: 32px;
+  font-weight: 700;
+  color: #181e4b;
+  text-decoration: none;
+}
+.nav-links{
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #181e4b;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #df6951;
+}
+.nav-links button{
+  cursor: pointer;
+background-color: transparent;
+border: none;
+}
+/* Hero Section */
+.hero {
+  padding: 100px 8%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #fff5f1 0%, rgba(255, 245, 241, 0) 100%);
+}
+
+.hero-content {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.hero h5 {
+  color:var(--primary);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  z-index: 9;
+  position: relative;
+  font-size: 64px;
+  color: #181e4b;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.hero h1 img{
+  z-index: 1;
+  position: absolute;
+  top: 65px;
+  right: 0px;
+}
+.hero p {
+  color: #5e6282;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.cta-button {
+  background: #F1A501;
+  color: white;
+  padding: 18px 45px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 20px 35px rgba(223, 105, 81, 0.3);
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+}
+
+.hero-image {
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 550px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Services Section */
+.services {
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  color: #181e4b;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  color: #5e6282;
+  margin-bottom: 60px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.service-card {
+  padding: 40px 25px;
+  border-radius: 36px;
+  background: #ffffff;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  background: #df6951;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+}
+
+.service-icon i {
+  color: white;
+  font-size: 32px;
+}
+
+/* Steps Section */
+.steps {
+  padding: 100px 8%;
+  background: #fff5f1;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.step-card {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 26px;
+}
+
+.step-number {
+  width: 80px;
+  height: 80px;
+  background: #df6951;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+  margin: 0 auto 30px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.testimonial-card {
+  padding: 40px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  padding: 100px 8%;
+  background: #fff5f1;
+  text-align: center;
+}
+
+.newsletter-box {
+  gap: 15px;
+  display: flex;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 62px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 65px rgba(0, 0, 0, 0.08);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter input {
+  width: 400px;
+  padding: 18px 30px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 80px 8%;
+  background: #181e4b;
+  color: white;
+}
+
+/* Animations */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
