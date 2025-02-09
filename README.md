@@ -34,7 +34,7 @@ This repository contains my daily progress through the #100DaysOfCode challenge.
 ## 📂 Projects & Demos
 | Day  | Project Name | Live Demo |
 |------|-------------|----------|
-| 01   | [Dark Theme Generator](Day_1/) | [View](Day_1/index.html) |
+| 01   | [Dark Theme Generator](Day_1/) | [View Demo](Day_1/index.html)  
 | 02   | [Coming Soon] | - |
 | ...  | ... | ... | 
 
