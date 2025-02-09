@@ -1,6 +1,5 @@
 # 100 Days of Code Challenge 🚀
 
-![100Days Banner](https://via.placeholder.com/800x200.png?text=100Days+Code+Challenge) <!-- Add your own banner image -->
 
 A daily coding journey where I build projects, learn new technologies, and document my progress. Join me as I commit to coding for 100 consecutive days!
 
