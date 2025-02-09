@@ -31,12 +31,13 @@ This repository contains my daily progress through the #100DaysOfCode challenge.
 - 🎨 **Themes**: Dark/Light mode support (from previous color scheme work)
 - 🔍 **Searchable**: Easily find projects by day or technology
 
-## 📂 Projects List
-| Day | Project Name | Technologies Used | Live Demo |
-|-----|--------------|-------------------|-----------|
-| 01  | [Dark Theme Generator](day-01/) | HTML, CSS, JavaScript | [Demo](#) |
-| 02  | [Coming Soon] | - | - |
-| ... | ... | ... | ... |
+## 📂 Projects & Demos
+| Day  | Project Name | Live Demo | Video Demo |
+|------|-------------|----------|------------|
+| 01   | [Dark Theme Generator](projects/day-01/) | [View](projects/day-01/index.html) | [🎥 Watch](demo/day-01-demo.mp4) |
+| 02   | [Coming Soon] | - | - |
+| ...  | ... | ... | ... |
+
 
 ## 🗺️ Roadmap
 - **Phase 1 (Day 1-30):** Web Development Fundamentals
