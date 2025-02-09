@@ -47,7 +47,4 @@ This repository contains my daily progress through the #100DaysOfCode challenge.
 - **Phase 3 (Day 61-90):** Backend Development & APIs
 - **Phase 4 (Day 91-100):** Full-Stack Projects
 
-## ⚙️ Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/100DaysOfCode.git
+
