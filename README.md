@@ -23,8 +23,6 @@ This repository contains my daily progress through the #100DaysOfCode challenge.
 **Rules I Follow:**
 1. Code minimum 1 hour daily
 2. Push code to GitHub every day
-3. Document progress in [PROGRESS.md](PROGRESS.md)
-4. Tweet daily updates with #100DaysOfCode
 
 ## ✨ Features
 - 🗓️ **Daily Projects**: New mini-project added each day
