@@ -32,11 +32,11 @@ This repository contains my daily progress through the #100DaysOfCode challenge.
 - 🔍 **Searchable**: Easily find projects by day or technology
 
 ## 📂 Projects & Demos
-| Day  | Project Name | Live Demo | Video Demo |
-|------|-------------|----------|------------|
-| 01   | [Dark Theme Generator](projects/day-01/) | [View](projects/day-01/index.html) | [🎥 Watch](demo/day-01-demo.mp4) |
-| 02   | [Coming Soon] | - | - |
-| ...  | ... | ... | ... |
+| Day  | Project Name | Live Demo |
+|------|-------------|----------|
+| 01   | [Dark Theme Generator](Day_1/) | [View](Day_1/index.html) |
+| 02   | [Coming Soon] | - |
+| ...  | ... | ... | 
 
 
 ## 🗺️ Roadmap
