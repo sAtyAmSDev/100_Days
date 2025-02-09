@@ -8,7 +8,6 @@ A daily coding journey where I build projects, learn new technologies, and docum
 - [Features](#-features)
 - [Projects List](#-projects-list)
 - [Roadmap](#-roadmap)
-- [Installation](#-installation)
 - [Usage](#-usage)
 - [Contributing](#-contributing)
 - [License](#-license)
