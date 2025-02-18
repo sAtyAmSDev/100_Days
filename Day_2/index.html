@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <div class="box">
+      <h2 id="queBox">1) What is HTML?</h2>
+      <div class="options-container">
+        <div class="options">
+          <input type="radio" class="InputOption" name="option" id="OptionA" value="a" />
+          <label for="OptionA">a) Hyper Text Markup Language</label>
+        </div>
+        <div class="options">
+          <input type="radio" class="InputOption" name="option" id="OptionB" value="b" />
+          <label for="OptionB">b) Hyperlinks and Text Markup Language</label>
+        </div>
+        <div class="options">
+          <input type="radio" class="InputOption" name="option" id="OptionC" value="c" />
+          <label for="OptionC">c) Home Tool Markup Language</label>
+        </div>
+        <div class="options">
+          <input type="radio" class="InputOption" name="option" id="OptionD" value="d" />
+          <label for="OptionD">d) Hyper Transfer Markup Language</label>
+        </div>
+      </div>
+      <button class="submit" onclick="SubmitQuiz()" type="submit">Submit Answer</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
