@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(2, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col {
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+}
