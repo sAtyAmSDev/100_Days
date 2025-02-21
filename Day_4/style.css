@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #222121;
+  height: 100%;
+  gap: 10px;
+}
+
+#StartDownload {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background: rgb(0, 247, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.Progress-Container {
+  width: 400px;
+  border: 1px solid;
+  background: #000;
+  border-radius: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.Progress-Bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0%;
+  font-weight: bold;
+  height: 40px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  transition: width 0.2s ease-in-out;
+}
